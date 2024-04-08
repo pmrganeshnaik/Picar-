@@ -1,0 +1,207 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 21em;
+    height: 28em;
+    background-color: rgb(202, 193, 193);
+   box-shadow: 5px 5px 25px;
+}
+
+.box p{
+    margin: 10px;
+    text-align: justify;
+}
+
+.box  img{
+    width: 21em;
+    height: 40%;
+}
+
+.box button{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background-color: rgb(54, 50, 50);
+    color: white;
+    transition: 0.2s;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1{
+    width: 21em;
+    height: 28em;
+    background-color: rgb(202, 193, 193);
+   box-shadow: 5px 5px 25px;
+}
+
+.box1 p{
+    margin: 10px;
+    text-align: justify;
+}
+
+.box1  img{
+    width: 21em;
+    height: 40%;
+}
+
+.box1 button{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box1 button:hover{
+    background-color: rgb(54, 50, 50);
+    color: white;
+    transition: 0.2s;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+
+.car{
+    display: flex;
+    justify-content: center
+    
+}
+
+.picar img{
+    width: 17em;
+    margin-top: 50%;
+    margin-left:-30%;
+}
+
+.picar p{
+    text-align: center;
+    color: rgb(48, 55, 61);
+    margin-left:-60%;
+}
+
+.down{
+    width: 15em;
+    height: 23em;
+
+}
+
+.product{
+    width: 15em;
+    height: 23em;
+}
+
+.get{
+    width: 15em;
+    height: 23em;
+}
+
+.get i{
+    padding: 10px;
+}
+
+.email{
+    margin-top: 50px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(59, 59, 59);
+    
+}
+
+.email p{
+    padding-top: 5px;
+    padding-right: 70px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    cursor: text;
+}
+
+.email button{
+    position: relative;
+    left: 150px;
+    bottom:40px;
+    border-radius: 20px;
+    height: 30px;
+    background-color:rgb(15, 4, 4);
+    color: white;
+    border: 1px solid white;
+}
+
+.email button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.copy p{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    font-size: 1.4rem;
+}
+
+header{
+    background-color: white(245, 237, 228);
+    position: relative;
+    top: -6px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 5px 5px 25px;
+}
+
+header img{
+    width: 17em;
+    position: relative;
+    right: 100px;
+}
+
+header button{
+   padding: 10px;
+   font-weight: bold;
+   font-size:15px;
+}
+
+header a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 60px;
+}
+
+header a:hover{
+    color: white;
+    background-color: black;
+
+}
+
+header button:hover{
+    background-color: black;
+    color: white;
+}
